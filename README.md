@@ -8,7 +8,6 @@ A free, open-source project investigating a dedicated-server mod for Raft.
 
 You must provide a legitimately owned Raft installation. RaftHarbor supplies only original project code: no game executables, assets, assemblies, saves, Steam credentials, or third-party mod binaries. Owning the game does not establish redistribution or commercial hosting rights. We have not verified unattended Steam authentication, anonymous SteamCMD installation, or headless operation. Do not bypass ownership checks or collect Steam passwords.
 
-This project is independent of Redbeet Interactive, Axolot Games, RaftModLoader, and RDS. It does not copy RDS code or promise RDS compatibility. Our original code is MIT licensed; third-party software retains its own terms. Future managed hosting is outside this repository's initial scope.
 
 ## Development
 

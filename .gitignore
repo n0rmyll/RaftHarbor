@@ -1,0 +1,64 @@
+# .NET and IDE output
+**/bin/
+**/obj/
+.vs/
+.idea/
+*.user
+*.suo
+*.pdb
+*.dll
+*.exe
+*.rmod
+*.nupkg
+*.snupkg
+artifacts/
+TestResults/
+# Proprietary game and loader files (keep installations outside this repo)
+game/
+game-files/
+GameFiles/
+Raft_Data/
+**/Managed/
+**/StreamingAssets/
+**/MonoBleedingEdge/
+*.assets
+*.bundle
+*.unity3d
+*.ress
+*.resS
+*.pak
+*.zip
+*.7z
+# Worlds, saves, runtime data, logs
+saves/
+worlds/
+backups/
+runtime/
+local/
+logs/
+*.log
+*.save
+*.sav
+*.rgd
+*.rwp
+Player.log
+# Credentials and machine-specific configuration
+.env
+.env.*
+!.env.example
+secrets/
+credentials/
+*.pfx
+*.p12
+*.pem
+*.key
+*.local.json
+*.local.props
+NuGet.Config
+nuget.config
+config.vdf
+loginusers.vdf
+ssfn*
+# OS files
+.DS_Store
+Thumbs.db

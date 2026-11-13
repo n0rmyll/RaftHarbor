@@ -1,0 +1,33 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F3409B38-8FD7-4815-AF13-F92FA9C70F88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RaftHarbor.Core", "src\RaftHarbor.Core\RaftHarbor.Core.csproj", "{22CA94C0-BEDF-46AE-84CC-01203421B868}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RaftHarbor.Probe", "src\RaftHarbor.Probe\RaftHarbor.Probe.csproj", "{46F19E40-8AC3-4E89-A514-0C027FE02D54}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22CA94C0-BEDF-46AE-84CC-01203421B868}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22CA94C0-BEDF-46AE-84CC-01203421B868}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22CA94C0-BEDF-46AE-84CC-01203421B868}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22CA94C0-BEDF-46AE-84CC-01203421B868}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46F19E40-8AC3-4E89-A514-0C027FE02D54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46F19E40-8AC3-4E89-A514-0C027FE02D54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46F19E40-8AC3-4E89-A514-0C027FE02D54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46F19E40-8AC3-4E89-A514-0C027FE02D54}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{22CA94C0-BEDF-46AE-84CC-01203421B868} = {F3409B38-8FD7-4815-AF13-F92FA9C70F88}
+		{46F19E40-8AC3-4E89-A514-0C027FE02D54} = {F3409B38-8FD7-4815-AF13-F92FA9C70F88}
+	EndGlobalSection
+EndGlobal
